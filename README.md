@@ -17,14 +17,16 @@ Nhóm đã phát triển module **Camera Health Score** nhằm định lượng 
 
 ## 2. Cấu trúc thư mục Repository
 ```
-K4-Track4-Day04-QuyenHoang-Sensor-Reality-Sprint/
+K4-Track4-Day04-BOT-Sensor-Reality-Sprint/
 ├── TEAMMATES.md                  # Danh sách và phân công 2 thành viên
 ├── README.md                     # Hướng dẫn và tổng quan dự án
 ├── src/
 │   └── benchmark_t1.py           # Mã nguồn Python chạy benchmark đối chứng 5 cấp độ
 ├── assets/
 │   ├── benchmark_plot.png        # Đồ thị suy giảm Health Score & Độ tin cậy
-│   └── failure_case_comparison.png # Ảnh minh chứng đối chứng Baseline vs Failure Case
+│   ├── failure_case_comparison.png # Ảnh minh chứng đối chứng Baseline vs Failure Case
+│   ├── real_adas_highway.jpg     # Ảnh thực tế Camera ADAS đường cao tốc
+│   └── sample_traffic.jpg        # Khung hình đối chứng Synthetic chuẩn
 ├── logs/
 │   ├── benchmark.log             # Log thực thi chi tiết
 │   └── benchmark_results.csv     # Bảng số liệu định lượng phục vụ báo cáo
@@ -41,7 +43,7 @@ K4-Track4-Day04-QuyenHoang-Sensor-Reality-Sprint/
    ```
 2. Chạy bài benchmark:
    ```bash
-   cd K4-Track4-Day04-QuyenHoang-Sensor-Reality-Sprint
+   cd K4-Track4-Day04-BOT-Sensor-Reality-Sprint
 3. Chạy bài benchmark mặc định (Synthetic Scene đối chứng chuẩn):
    ```bash
    python src/benchmark_t1.py

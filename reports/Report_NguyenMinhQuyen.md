@@ -3,7 +3,7 @@
 **MSSV:** 2A202602438  
 **Chủ đề:** T1 - Camera Degradation Health Score  
 **Nền tảng mục tiêu:** Camera trước trên xe tự hành ADAS (Front-facing Automotive Camera)  
-**Repository nhóm:** `K4-Track4-Day04-QuyenHoang-Sensor-Reality-Sprint`
+**Repository nhóm:** `K4-Track4-Day04-BOT-Sensor-Reality-Sprint` ([GitHub Link](https://github.com/ngminhquyen2710-sketch/K4-Track4-Day04-BOT-Sensor-Reality-Sprint))
 
 ---
 
