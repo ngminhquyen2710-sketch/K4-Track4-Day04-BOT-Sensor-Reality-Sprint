@@ -1,0 +1,11 @@
+SENSOR REALITY SPRINT LOG
+Topic T1: Camera degradation health score
+Teammates: Nguyen Minh Quyen (2A202602438), Vuong Viet Hoang (2A202602528)
+
+Degradation Level                | NaiveLap  | RobLap   | Glare%  | Health%  | Dets  | AvgConf
+----------------------------------------------------------------------------------------------
+L0: Baseline (Clear)             | 392.2     | 148.8    | 0.7     | 56.7     | 5     | 0.656  
+L1: Mild Blur (k=9)              | 9.8       | 11.8     | 0.4     | 32.4     | 0     | 0.000  
+L2: Moderate Blur (k=21)         | 2.3       | 2.6      | 0.2     | 30.4     | 0     | 0.000  
+L3: Heavy Blur + Rain Noise      | 2009.5    | 25.4     | 0.1     | 19.9     | 5     | 0.770  
+L4: Severe Blur + Glare (Failure Case) | 1.7       | 1.7      | 21.0    | 0.4      | 0     | 0.000  

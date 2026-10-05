@@ -1,0 +1,6 @@
+Level,Naive_Lap,Robust_Lap,Entropy,Glare_Ratio,Health_Score,Detections,Avg_Confidence
+"L0: Baseline (Clear)",392.2,148.8,7.49,0.7,56.7,5,0.656
+"L1: Mild Blur (k=9)",9.8,11.8,7.45,0.4,32.4,0,0.0
+"L2: Moderate Blur (k=21)",2.3,2.6,7.41,0.2,30.4,0,0.0
+"L3: Heavy Blur + Rain Noise",2009.5,25.4,7.48,0.1,19.9,5,0.77
+"L4: Severe Blur + Glare (Failure Case)",1.7,1.7,6.83,21.0,0.4,0,0.0
