@@ -29,8 +29,7 @@ K4-Track4-Day04-QuyenHoang-Sensor-Reality-Sprint/
 │   ├── benchmark.log             # Log thực thi chi tiết
 │   └── benchmark_results.csv     # Bảng số liệu định lượng phục vụ báo cáo
 └── reports/
-    ├── Report_NguyenMinhQuyen.md # Báo cáo cá nhân của Nguyễn Minh Quyền
-    └── Report_VuongVietHoang.md   # Báo cáo cá nhân của Vương Việt Hoàng
+    └── Report_NguyenMinhQuyen.md # Báo cáo cá nhân của Nguyễn Minh Quyền (Vương Việt Hoàng sẽ push riêng)
 ```
 
 ---
